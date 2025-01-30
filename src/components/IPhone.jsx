@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import * as THREE from 'three'
 
 function Model(props) {
-	const { nodes, materials } = useGLTF('./public/models/scene.glb')
+	const { nodes, materials } = useGLTF('./models/scene.glb')
 
 	const texture = useTexture(props.item.img)
 
